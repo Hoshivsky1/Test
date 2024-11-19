@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/burger.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="sidebar__logo">
+                <img class="sidebar__logo-image" src="./assets/sidebar/logo.svg" alt="logo">
+                <h1 class="sidebar__title">Dashboard</h1>
+                <span class="sidebar__version">v.01</span>
+            </div>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="#"><img src="./assets/sidebar/nav/key-square.svg" alt=""> Dashboard</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#"><img src="./assets/sidebar/nav/3d-square.svg" alt=""> Product</a>
+                    </li>
+                    <li class="sidebar__item sidebar__item--active">
+                        <a href="#"><img src="./assets/sidebar/nav/user-square.svg" alt=""> Customers</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#"><img src="./assets/sidebar/nav/wallet-money.svg" alt=""> Income</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#"><img src="./assets/sidebar/nav/discount-shape.svg" alt=""> Promote</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="#"><img src="./assets/sidebar/nav/message-question.svg" alt=""> Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar__account">
+                <img class="sidebar__account-avatar" src="./assets/sidebar/avatar.png" alt="User avatar">
+                <div class="sidebar__name">
+                    <h3 class="sidebar__name-title">Evano</h3>
+                    <h4 class="sidebar__name-subtitle">Project Manager</h4>
+                </div>
+            </div>
+        </aside>
+        <div class="menubar">
+            <div class="burger">
+                <span class="burger__line burger__line_first"></span>
+                <span class="burger__line burger__line_second"></span>
+                <span class="burger__line burger__line_third"></span>
+                <span class="burger__line burger__line_fourth"></span>
+            </div>
+        </div>
+        <main class="content">
+            <h2 class="content__title">Hello Evano 👋🏼,</h2>
+            <section class="content__block">
+                <header class="content__header">
+                    <div class="content__text">
+                        <h3 class="content__text-title">All Customers</h3>
+                        <h4 class="content__text-subtitle">Active Members</h4>
+                    </div>
+                    <input class="content__search" type="text" placeholder="Search">
+                </header>
+                <article class="content__info">
+                    <table class="content__table">
+                        <thead>
+                            <tr>
+                                <th>Customer Name</th>
+                                <th>Company</th>
+                                <th>Phone Number</th>
+                                <th>Email</th>
+                                <th>Country</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td><span class="content__table--active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Floyd Miles</td>
+                                <td>Yahoo</td>
+                                <td>(205) 555-0100</td>
+                                <td>floyd@yahoo.com</td>
+                                <td>Kiribati</td>
+                                <td><span class="content__table--inactive">Inactive</span></td>
+                            </tr>
+                            <tr>
+                                <td>Ronald Richards</td>
+                                <td>Adobe</td>
+                                <td>(302) 555-0107</td>
+                                <td>ronald@adobe.com</td>
+                                <td>Israel</td>
+                                <td><span class="content__table--inactive">Inactive</span></td>
+                            </tr>
+                            <tr>
+                                <td>Marvin McKinney</td>
+                                <td>Tesla</td>
+                                <td>(225) 555-0118</td>
+                                <td>marvin@tesla.com</td>
+                                <td>Iran</td>
+                                <td><span class="content__table--active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Jerome Bell</td>
+                                <td>Google</td>
+                                <td>(629) 555-0129</td>
+                                <td>jerome@google.com</td>
+                                <td>Réunion</td>
+                                <td><span class="content__table--active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Kathryn Murphy</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>kathryn@microsoft.com</td>
+                                <td>Curaçao</td>
+                                <td><span class="content__table--active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Marvin McKinney</td>
+                                <td>Tesla</td>
+                                <td>(225) 555-0118</td>
+                                <td>marvin@tesla.com</td>
+                                <td>Iran</td>
+                                <td><span class="content__table--active">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Floyd Miles</td>
+                                <td>Yahoo</td>
+                                <td>(205) 555-0100</td>
+                                <td>floyd@yahoo.com</td>
+                                <td>Kiribati</td>
+                                <td><span class="content__table--inactive">Inactive</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <div class="content__pagination">
+                    <h3 class="content__pagination-title">
+                        Showing data 1 to 8 of  256K entries
+                    </h3>
+                    <div class="content__pagination-buttons">
+                        <button><</button>
+                        <button class="content__pagination-buttons--active">1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <span>...</span>
+                        <button>40</button>
+                        <button>></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./scripts/burger.js"></script>
+</body>
+
+</html>
